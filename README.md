@@ -7,3 +7,4 @@ Github 링크는 [다음](https://github.com/AidennnLee/sbb-mission2.git)
 ### Controller
 
 - HelloController : 환영 페이지
+- MainController : SBB 환영 페이지

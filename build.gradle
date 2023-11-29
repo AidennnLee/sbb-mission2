@@ -16,8 +16,15 @@ repositories {
 }
 
 dependencies {
+    //스프링 부트
     implementation 'org.springframework.boot:spring-boot-starter-web'
+    //스프링 부트 테스트
     testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    //Spring Boot Devtools(서버 자동 재기동)
+    developmentOnly 'org.springframework.boot:spring-boot-devtools'
+    //롬복
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
 }
 
 tasks.named('test') {
