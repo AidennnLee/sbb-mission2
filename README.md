@@ -8,8 +8,26 @@ Github 링크는 [다음](https://github.com/AidennnLee/sbb-mission2.git)
 
 - HelloController : 환영 페이지
 - MainController : SBB 환영 페이지
+- QuestionController : 질문 목록 페이지
 
 ### Package
+
+#### question
+
+- Question : 질문 엔티티
+- QuestionRepository : 질문 엔티티 관련 처리
+- QuestionController : 질문 관련 컨트롤러
+
+#### answer
+
+- Answer : 답변 엔티티
+- AnswerRepository : 답변 엔티티 관련 처리
+
+#### user
+
+### Templete
+
+- question_list : 질문 목록 페이지
 
 ### Entity
 
