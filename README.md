@@ -9,6 +9,8 @@ Github 링크는 [다음](https://github.com/AidennnLee/sbb-mission2.git)
 - HelloController : 환영 페이지
 - MainController : SBB 환영 페이지
 
+### Package
+
 ### Entity
 
 #### 질문(Question) 엔티티
