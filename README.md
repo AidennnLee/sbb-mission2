@@ -29,6 +29,7 @@ Github 링크는 [다음](https://github.com/AidennnLee/sbb-mission2.git)
 ### Templete
 
 - question_list : 질문 목록 페이지
+- question_detail : 질문 상세 페이지
 
 ### Entity
 
@@ -49,3 +50,7 @@ Github 링크는 [다음](https://github.com/AidennnLee/sbb-mission2.git)
 |question| 	질문         |
 |content| 	답변의 내용     |
 |create_date| 	답변을 작성한 일시 |
+
+### Exception
+
+- DataNotFoundException : 값이 존재하지 않는 경우
