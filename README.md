@@ -23,6 +23,8 @@ Github 링크는 [다음](https://github.com/AidennnLee/sbb-mission2.git)
 
 - Answer : 답변 엔티티
 - AnswerRepository : 답변 엔티티 관련 처리
+- AnswerController : 답변 관련 컨트롤러
+- AnswerService : 답변 관련 처리 담당
 
 #### user
 
