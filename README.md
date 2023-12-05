@@ -56,3 +56,7 @@ Github 링크는 [다음](https://github.com/AidennnLee/sbb-mission2.git)
 ### Exception
 
 - DataNotFoundException : 값이 존재하지 않는 경우
+
+### style.css
+
+화면 디자인을 위한 스타일시트(stylesheet, CSS파일)
