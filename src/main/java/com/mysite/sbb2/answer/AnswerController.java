@@ -2,7 +2,6 @@ package com.mysite.sbb2.answer;
 
 import com.mysite.sbb2.question.Question;
 import com.mysite.sbb2.question.QuestionService;
-import jakarta.persistence.ManyToOne;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -20,10 +19,9 @@ public class AnswerController {
     private final AnswerService answerService;
 
     @PostMapping("/create/{id}")
-    public String createAnswer(Model model, @PathVariable("id") Integer id, @RequestParam String content){
+    public String createAnswer(Model model, @PathVariable("id") Integer id, @RequestParam("content") String content) {
         Question question = this.questionService.getQuestion(id);
         this.answerService.create(question, content);
-
         return String.format("redirect:/question/detail/%s", id);
     }
 }
