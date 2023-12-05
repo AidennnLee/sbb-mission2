@@ -30,6 +30,7 @@ Github 링크는 [다음](https://github.com/AidennnLee/sbb-mission2.git)
 
 ### Templete
 
+- layout : HTML 페이지의 기본 틀
 - question_list : 질문 목록 페이지
 - question_detail : 질문 상세 페이지
 
