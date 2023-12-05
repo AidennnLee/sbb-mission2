@@ -18,6 +18,7 @@ Github 링크는 [다음](https://github.com/AidennnLee/sbb-mission2.git)
 - QuestionRepository : 질문 엔티티 관련 처리
 - QuestionController : 질문 관련 컨트롤러
 - QuestionService : 질문 관련 처리 담당
+- QuestionForm : 질문 등록 시 입력값 검증
 
 #### answer
 
@@ -25,6 +26,7 @@ Github 링크는 [다음](https://github.com/AidennnLee/sbb-mission2.git)
 - AnswerRepository : 답변 엔티티 관련 처리
 - AnswerController : 답변 관련 컨트롤러
 - AnswerService : 답변 관련 처리 담당
+- AnswerForm : 답변 등록 시 입력값 검증
 
 #### user
 
@@ -33,6 +35,7 @@ Github 링크는 [다음](https://github.com/AidennnLee/sbb-mission2.git)
 - layout : HTML 페이지의 기본 틀
 - question_list : 질문 목록 페이지
 - question_detail : 질문 상세 페이지
+- question_form : 질문 등록 페이지
 
 ### Entity
 
